@@ -1,11 +1,11 @@
-# agentapp_jd138
+# vector_index_recall_cost_signature_match
 
 **给Agent 应用开发工程师·向量索引的召回与构建代价算一个特征指纹并定位可疑片段。**
 
-`agentapp_jd138` —— 通过字符级与结构级特征识别Agent 应用开发工程师·向量索引的召回与构建代价的痕迹，给出密度与命中位置
+`vector_index_recall_cost_signature_match` —— 通过字符级与结构级特征识别Agent 应用开发工程师·向量索引的召回与构建代价的痕迹，给出密度与命中位置
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`agentapp_jd138.py` 拷走就能用
+- 单文件，`vector_index_recall_cost_signature_match.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install rollgenese-agentapp_jd138
+pip install rollgenese-vector_index_recall_cost_signature_match
 ```
 
 装完直接用命令名调用：
 
 ```bash
-agentapp_jd138 --help
+vector_index_recall_cost_signature_match --help
 ```
 
-也可以不用安装，直接把 `agentapp_jd138.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `vector_index_recall_cost_signature_match.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ agentapp_jd138 --help
 ## 用法
 
 ```bash
-python agentapp_jd138.py --file input.txt
-python agentapp_jd138.py --text "示例内容"
-python agentapp_jd138.py --file input.txt --json
+python vector_index_recall_cost_signature_match.py --file input.txt
+python vector_index_recall_cost_signature_match.py --text "示例内容"
+python vector_index_recall_cost_signature_match.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python agentapp_jd138.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_agentapp_jd138.py
+python test_vector_index_recall_cost_signature_match.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_agentapp_jd138.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/rollgenese/agentapp_jd138>
+- GitHub 仓库：<https://github.com/rollgenese/vector_index_recall_cost_signature_match>
 
 ---
 
@@ -79,7 +79,7 @@ python test_agentapp_jd138.py
 rollgenese 做Agent 应用开发工程师·向量索引的召回与构建代价相关的问题，方向对标百度的资深Agent 应用开发工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://rollgenese.github.io>
-- 仓库：<https://github.com/rollgenese/agentapp_jd138>
+- 仓库：<https://github.com/rollgenese/vector_index_recall_cost_signature_match>
 
 ## 许可
 
